@@ -20,6 +20,8 @@
 		C442FAC1237216110039F762 /* sfx_swipe.caf in Resources */ = {isa = PBXBuildFile; fileRef = C442FAC0237216110039F762 /* sfx_swipe.caf */; };
 		C442FAC32372161F0039F762 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C442FAC22372161F0039F762 /* assets.atlas */; };
 		C442FAC52372166B0039F762 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442FAC42372166B0039F762 /* MSButtonNode.swift */; };
+		C456A4AE237363D70026E211 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456A4AD237363D70026E211 /* SushiPiece.swift */; };
+		C456A4B02373680B0026E211 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456A4AF2373680B0026E211 /* character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C442FAC0237216110039F762 /* sfx_swipe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_swipe.caf; sourceTree = "<group>"; };
 		C442FAC22372161F0039F762 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
 		C442FAC42372166B0039F762 /* MSButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		C456A4AD237363D70026E211 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		C456A4AF2373680B0026E211 /* character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				C442FA9A237215A50039F762 /* LaunchScreen.storyboard */,
 				C442FA9D237215A50039F762 /* Info.plist */,
 				C442FAC42372166B0039F762 /* MSButtonNode.swift */,
+				C456A4AD237363D70026E211 /* SushiPiece.swift */,
+				C456A4AF2373680B0026E211 /* character.swift */,
 			);
 			path = "Sushi Neko";
 			sourceTree = "<group>";
@@ -230,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C442FA83237215A20039F762 /* Build configuration list for PBXProject "Sushi Neko" */;
+			buildConfigurationList = C442FA83237215A20039F762 /* Build configuration list for PBXProject "SushiNeko" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -289,6 +295,8 @@
 				C442FA92237215A30039F762 /* GameScene.swift in Sources */,
 				C442FA94237215A30039F762 /* GameViewController.swift in Sources */,
 				C442FA8C237215A20039F762 /* AppDelegate.swift in Sources */,
+				C456A4B02373680B0026E211 /* character.swift in Sources */,
+				C456A4AE237363D70026E211 /* SushiPiece.swift in Sources */,
 				C442FAC52372166B0039F762 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C442FA83237215A20039F762 /* Build configuration list for PBXProject "Sushi Neko" */ = {
+		C442FA83237215A20039F762 /* Build configuration list for PBXProject "SushiNeko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C442FAB4237215A50039F762 /* Debug */,
