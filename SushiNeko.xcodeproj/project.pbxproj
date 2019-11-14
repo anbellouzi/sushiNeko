@@ -22,6 +22,7 @@
 		C442FAC52372166B0039F762 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442FAC42372166B0039F762 /* MSButtonNode.swift */; };
 		C456A4AE237363D70026E211 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456A4AD237363D70026E211 /* SushiPiece.swift */; };
 		C456A4B02373680B0026E211 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456A4AF2373680B0026E211 /* character.swift */; };
+		C4966CBF237CC8DA00A9F2EA /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4966CBE237CC8DA00A9F2EA /* AnimationActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		C442FAC42372166B0039F762 /* MSButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		C456A4AD237363D70026E211 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
 		C456A4AF2373680B0026E211 /* character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		C4966CBE237CC8DA00A9F2EA /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		C442FA8A237215A20039F762 /* Sushi Neko */ = {
 			isa = PBXGroup;
 			children = (
+				C4966CBE237CC8DA00A9F2EA /* AnimationActions.sks */,
 				C442FA8B237215A20039F762 /* AppDelegate.swift */,
 				C442FA8D237215A30039F762 /* GameScene.sks */,
 				C442FA8F237215A30039F762 /* Actions.sks */,
@@ -265,6 +268,7 @@
 				C442FAC1237216110039F762 /* sfx_swipe.caf in Resources */,
 				C442FA8E237215A30039F762 /* GameScene.sks in Resources */,
 				C442FAC32372161F0039F762 /* assets.atlas in Resources */,
+				C4966CBF237CC8DA00A9F2EA /* AnimationActions.sks in Resources */,
 				C442FA99237215A50039F762 /* Assets.xcassets in Resources */,
 				C442FA9C237215A50039F762 /* LaunchScreen.storyboard in Resources */,
 				C442FA90237215A30039F762 /* Actions.sks in Resources */,
